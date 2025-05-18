@@ -1,43 +1,66 @@
-🧠 Aptitude Solver
-An AI-powered web app designed to help engineering students quickly solve aptitude problems — built without writing a single line of code.
+Project Overview
+This project implements an AI-powered web application called Aptitude Solver, designed to help engineering students solve aptitude problems efficiently. The application features a conversational interface where users can ask questions related to quantitative aptitude, logical reasoning, and verbal ability. It responds with concise solutions by default, but users can request detailed step-by-step explanations when needed. The chatbot's problem-solving logic is grounded in C++.
 
-🎯 Purpose
-Aptitude Solver was created as part of a 2-day Generative AI Workshop conducted by Outskill, where I learned how to turn ideas into functional apps using no-code AI tools and prompt engineering.
+The entire application was built using no-code tools, particularly the Bolt platform, and was deployed using Netlify. It demonstrates how AI and prompt engineering can be used to build intelligent educational tools without traditional coding.
 
-🧩 What I Learned
-During the workshop, I learned:
+Project Features
+🤖 AI Chatbot:
+Solves aptitude problems related to:
 
-🔹 How to write structured and effective prompts using Markdown formatting
+Quantitative aptitude
 
-🔹 How to build AI applications using Bolt — without coding
+Logical reasoning
 
-🔹 Real-world use cases of Generative AI in education and productivity
+Verbal ability
 
-🔹 The end-to-end process of designing, building, and deploying web applications
+Solutions are concise by default
 
-🔹 How to iterate quickly using prompt-based development
+Users can request extended explanations if needed
 
-🛠️ Tech & Tools Used
-Bolt – for creating the app using prompt instructions
+Solutions are explained using C++ logic
 
-Netlify – for seamless deployment
+🧠 Prompt-Based Design:
+Entire behavior driven using structured Markdown prompts
 
-Markdown Prompting – to structure chatbot behavior
+Responses formatted clearly for better readability
 
-AI Chatbot – specialized to solve aptitude questions in C++
+Follows a “conversational assistant” style
 
-CustomGPTs – to provide contextual and structured solutions
+🔒 User Experience:
+Clean interface
 
-🤖 About the App
-The Aptitude Solver app allows users (especially engineering students) to:
+Minimal user input required
 
-Solve standard aptitude problems (quantitative, logical, and verbal)
+Easy access to learning through chat
 
-Get concise answers by default
+🚀 Deployment:
+Built on Bolt
 
-Request detailed step-by-step explanations when needed
+Hosted live via Netlify
 
-Interact with a chatbot trained specifically for aptitude topics
+Technologies Used
+Bolt – No-code platform used to build the chatbot with natural language prompts
+
+Markdown Prompting – To define chatbot instructions and behaviors
+
+Generative AI – For solving and generating human-like solutions to aptitude questions
+
+Netlify – For live deployment of the application
+
+Workshop Context
+This app was built as part of a 2-day Generative AI Workshop organized by Outskill. Under the mentorship of Vaibhav Sisinty (Founder of Outskill), I learned how to:
+
+Write effective prompts
+
+Build apps using no-code AI tools like Bolt
+
+Understand the fundamentals of AI product development
+
+Deploy a fully functional app without writing a single line of code
+
+Project Motivation
+The goal was to apply newly learned skills in Generative AI and prompt engineering to build a useful app for students. Aptitude Solver serves as a proof-of-concept that AI can be harnessed for education in a low-code/no-code environment.
+
 
 👨‍🏫 Workshop Mentor
 Special thanks to Vaibhav Sisinty, founder of Outskill, whose practical teaching approach and prompt-writing techniques helped me gain hands-on experience in building and deploying this project.
